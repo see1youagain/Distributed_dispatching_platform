@@ -1,0 +1,29 @@
+{
+    "LogisiticsCenter": [
+        {
+            "send": {
+                "type": "add_task/update_plugin",
+                "add_task": "task",
+                "update_plugin": "plugin"
+            },
+            "receive": {
+                "accept_task": "taskid",
+                "finish_task": "taskid",
+                "reject_task": "taskid"
+            }
+        }
+    ],
+    "BranchOffice": [
+        {
+            "send": {
+                "type": "",
+                "accept_task": "taskid",
+                "finish_task": "taskid"
+            },
+            "receive": {
+                "add_task": "task",
+                "update_plugin": "plugin"
+            }
+        }
+    ]
+}

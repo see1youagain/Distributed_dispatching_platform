@@ -1,0 +1,3 @@
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/edit_cache.dir
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/rebuild_cache.dir
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/LogisticsSystem.dir
