@@ -20,18 +20,6 @@ queue
 ../plugins/PluginManager.h
 /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
 
-/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.cpp
-LogisticsCenter.h
-/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.h
-fstream
--
-iostream
--
-nlohmann/json.hpp
--
-BranchOffice.h
-/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/BranchOffice.h
-
 /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.h
 string
 -
@@ -69,6 +57,24 @@ Task.h
 /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
 ../plugins/PluginManager.h
 /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
+
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/main.cpp
+./core/LogisticsCenter.h
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.h
+./core/BranchOffice.h
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/BranchOffice.h
+core/Task.h
+/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
+iostream
+-
+nlohmann/json.hpp
+-
+vector
+-
+fstream
+-
+thread
+-
 
 /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
 string

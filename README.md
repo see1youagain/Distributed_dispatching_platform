@@ -83,56 +83,51 @@
 ```bash
 Distributed_dispatching_platform/
 │
-├── core/                     # 核心模块
-│   ├── LogisticsCenter.cpp   # 调度中心核心逻辑
-│   ├── LogisticsCenter.h     # 调度中心头文件
-│   ├── BranchOffice.cpp      # 分支机构逻辑
-│   ├── BranchOffice.h        # 分支机构头文件
-│   ├── Task.cpp              # 任务类逻辑
-│   ├── Task.h                # 任务类头文件
-│   ├── Vehicle.cpp           # 车辆类逻辑
-│   ├── Vehicle.h             # 车辆类头文件
+├── core/                     # 核心模块：负责平台的主要业务逻辑，包括任务调度、分支机构管理、任务与车辆的处理等。
+│   ├── LogisticsCenter.cpp   # 调度中心核心逻辑：负责管理任务、监控任务进度、分配任务给各分支机构。
+│   ├── LogisticsCenter.h     # 调度中心头文件：声明调度中心的各类函数与成员变量。
+│   ├── BranchOffice.cpp      # 分支机构逻辑：负责处理调度中心分配的任务，并调度可用的车辆执行任务。
+│   ├── BranchOffice.h        # 分支机构头文件：声明分支机构的各类函数与成员变量。
+│   ├── Task.cpp              # 任务类逻辑：任务的具体实现，包括任务的属性、处理方式等。
+│   ├── Task.h                # 任务类头文件：声明任务类的函数与成员变量。
+│   ├── Vehicle.cpp           # 车辆类逻辑：负责车辆的管理与状态，包括车辆的任务分配与状态更新。
+│   ├── Vehicle.h             # 车辆类头文件：声明车辆类的函数与成员变量。
 │
-├── plugins/                  # 插件模块
-│   ├── PluginManager.cpp     # 插件管理核心逻辑
-│   ├── PluginManager.h       # 插件管理头文件
+├── plugins/                  # 插件模块：支持插件的动态加载与更新，扩展系统的功能。
+│   ├── PluginManager.cpp     # 插件管理核心逻辑：负责插件的加载、更新和管理。
+│   ├── PluginManager.h       # 插件管理头文件：声明插件管理类的函数与成员变量。
+│   ├── SamplePlugin.cpp      # 示例插件：示范如何编写和集成插件到系统中。
+│   ├── SamplePlugin.h        # 示例插件头文件：声明示例插件的函数与成员变量。
 │
-├── migration/                # 任务迁移模块
-│   ├── TaskMigrator.cpp      # 任务迁移核心逻辑
-│   ├── TaskMigrator.h        # 任务迁移头文件
+├── network/                  # 网络通信模块：实现调度中心与分支机构间的通信。
+│   ├── Server.cpp            # 调度中心服务器：实现服务器端功能，处理来自分支的请求。
+│   ├── Server.h              # 服务器头文件：声明服务器类的函数与成员变量。
+│   ├── Client.cpp            # 分支机构客户端：实现客户端功能，处理来自调度中心的任务。
+│   ├── Client.h              # 客户端头文件：声明客户端类的函数与成员变量。
 │
-├── network/                  # 网络通信模块
-│   ├── Server.cpp            # 调度中心服务器
-│   ├── Server.h              # 服务器头文件
-│   ├── Client.cpp            # 分支机构客户端
-│   ├── Client.h              # 客户端头文件
+├── config/                   # 配置文件：包括系统运行时所需的各种配置文件。
+│   ├── center_config/         # 调度中心相关配置
+│       ├── config.json  # 配置文件，包含调度中心的基本信息（IP、端口等）。
+│       ├── log.txt  # 日志文件，记录系统运行时的日志信息。
+│       ├── routes.json  # 路线数据文件，记录各种路线信息。
+│       ├── routes_lists/  # 路线版本文件夹，保存不同版本的路线数据。
+│           ├── routes_lists_v1.json  # 路线版本1
+│           ├── routes_lists_v2.json  # 路线版本2
+│   ├── branch_config/         # 分支机构相关配置
+│       ├── routes.json  # 路线数据文件，记录分支机构的路线信息。
+│       ├── routes_lists/  # 路线版本文件夹
+│           ├── routes_lists_v1.json  # 路线版本1
 │
-├── config/                   # 配置文件
-│   ├── config.json           # 全局配置文件
-│   ├── routes.json           # 路线数据
+├── utils/                    # 工具模块：包含系统所需的工具类，如日志记录、序列化工具等。
+│   ├── Logger.cpp            # 日志工具：实现日志记录功能。
+│   ├── Logger.h              # 日志头文件：声明日志工具类的函数与成员变量。
 │
-├── tests/                    # 测试模块
-│   ├── test_main.cpp         # 测试入口文件
-│   ├── TestLogisticsCenter.cpp # 测试调度中心
-│   ├── TestBranchOffice.cpp  # 测试分支机构
-│   ├── TestPlugins.cpp       # 测试插件加载
-│   ├── TestMigration.cpp     # 测试任务迁移
+├── docs/                     # 文档：包含项目的架构文档、使用说明、API 文档等。
+│   ├── architecture.md       # 系统架构文档：详细介绍系统的整体架构与模块设计。
+│   ├── usage.md              # 使用说明：介绍如何配置和运行项目。
+│   ├── api_reference.md      # API 文档：列出系统各个模块的接口说明。
 │
-├── utils/                    # 工具模块
-│   ├── Logger.cpp            # 日志工具
-│   ├── Logger.h              # 日志头文件
-│   ├── Serializer.cpp        # 序列化工具
-│   ├── Serializer.h          # 序列化头文件
-│
-├── docs/                     # 文档
-│   ├── architecture.md       # 系统架构文档
-│   ├── usage.md              # 使用说明
-│   ├── api_reference.md      # API 文档
-│
-├── Makefile                  # 项目编译规则
-└── README.md                 # 项目介绍
+├── CMakeLists.txt            # CMake构建文件：用于配置项目的构建流程。
+├── README.md                 # 项目介绍：概述项目的目标、功能和使用方式。
+└── main.cpp                  # 主程序入口：程序的启动点，初始化并运行系统。
 ```
-
----
-
-通过以上的更新，`README` 文件更清晰地描述了项目的目标、任务重点、实现思路、步骤和模块架构。如果你需要进一步的扩展或修改，可以根据实际需求进行调整。

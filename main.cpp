@@ -24,13 +24,13 @@ void startBranchOffice(const std::string &name, const std::string &server_ip, in
 
 int main()
 {
-    LogisticsCenter logisticsCenter("../center_config/config.json", "../center_config/routes.json",
-                                    "../center_config/routes_lists", "../center_config/log.txt");
+    LogisticsCenter logisticsCenter("../config/center_config/config.json", "../config/center_config/routes.json",
+                                    "../config/center_config/routes_lists", "../config/center_config/log.txt");
     std::cout << "logisticsCenter server start" << std::endl;
 
     std::this_thread::sleep_for(std::chrono::seconds(4));
 
-    std::ifstream configFileStream("../center_config/config.json");
+    std::ifstream configFileStream("../config/center_config/config.json");
     if (!configFileStream)
     {
         std::cerr << "Could not open config file: " << std::endl;
@@ -49,7 +49,7 @@ int main()
         std::string name = branch["name"];
         int branch_port = branch["port"];
         std::string branch_ip = branch["ip"];
-        branchThreads.emplace_back(startBranchOffice, name, server_ip, server_port, branch_ip, branch_port, "../branch_config/routes_lists");
+        branchThreads.emplace_back(startBranchOffice, name, server_ip, server_port, branch_ip, branch_port, "../config/branch_config/routes_lists");
     }
 
     std::this_thread::sleep_for(std::chrono::seconds(5));

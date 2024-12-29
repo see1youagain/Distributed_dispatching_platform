@@ -21,3 +21,11 @@ LogisticsCenter类和BranchOffice类的间接Socket通信成功，尝试改为�
 时间：2024年12月26日
 完成总体架构，增加注释和GDB调试，解决多线程冲突，资源竞争，死锁等问题。调试完毕，完成无Plugin的任务调度。
 
+时间：2024年12月27日
+完成PluginManager类，并尝试融合进入Socket通信，并构建对应通信协议
+
+时间：2024年12月28日
+完成PluginManager类的融合，并重构config文件，进行插件json的分块传输与块合并。
+
+时间：2024年12月29日
+完成最终版本，修改README.md文件，并上传github
