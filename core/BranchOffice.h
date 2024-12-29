@@ -6,11 +6,12 @@
 #include "../network/Client.h"
 #include "Vehicle.h"
 #include <queue>
+#include "../plugins/PluginManager.h"
 
 class BranchOffice
 {
 public:
-    BranchOffice(const std::string &name, const std::string &serverIP, int serverPort, const std::string &clientIP, int clientPort);
+    BranchOffice(const std::string &name, const std::string &serverIP, int serverPort, const std::string &clientIP, int clientPort, const std::string &routesListPath);
     ~BranchOffice();
 
     bool ReceiveTask(const Task &task); // 判断能否执行
@@ -35,6 +36,7 @@ private:
     // std::mutex mtx_receive;                  // 接收消息队列锁
     // std::mutex mtx_send;                     // 发送消息队列锁
     // std::condition_variable cv_send;         // 用于通知发送线程
+    PluginManager pluginManager;
 };
 
 #endif

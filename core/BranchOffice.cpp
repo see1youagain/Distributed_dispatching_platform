@@ -5,14 +5,14 @@
 
 using json = nlohmann::json;
 
-BranchOffice::BranchOffice(const std::string &name, const std::string &serverIP, int serverPort, const std::string &clientIP, int clientPort)
-    : m_name(name), m_client(new Client(serverIP, serverPort, clientIP, clientPort))
+BranchOffice::BranchOffice(const std::string &name, const std::string &serverIP, int serverPort, const std::string &clientIP, int clientPort, const std::string &routesListPath)
+    : m_name(name), m_client(new Client(serverIP, serverPort, clientIP, clientPort)), pluginManager(routesListPath)
 {
     // Register itself to the Client for receiving messages
     m_client->registerBranch(this);
     for (int i = 0; i < num_vehicle; i++)
     {
-        m_vehicles.push_back(new Vehicle(name + "_Vehicle" + std::to_string(i), this));
+        m_vehicles.push_back(new Vehicle(name + "_Vehicle" + std::to_string(i), this, routesListPath));
     }
     // 启动所有车辆
     for (auto &vehicle : m_vehicles)
@@ -105,9 +105,15 @@ void BranchOffice::handleMsg(std::string message)
             m_client->sendRequest(reject_msg.dump());
         }
     }
-    else if (type == "update_plugin")
+    else if (type == "update_plugin_chunk")
     {
-        std::cout << "not finish" << std::endl;
+        std::string fileID = msg_json["file_id"];
+        std::string chunk = msg_json["chunk"];
+        bool isLastChunk = msg_json["is_last_chunk"];
+        std::string plugin_version = msg_json["version"];
+
+        // 交给 PluginManager 处理分块
+        pluginManager.handleChunk(fileID, chunk, isLastChunk, plugin_version);
     }
     else if (type == "send_msg")
     {

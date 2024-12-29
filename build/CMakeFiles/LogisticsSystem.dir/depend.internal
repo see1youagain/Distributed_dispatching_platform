@@ -7,6 +7,7 @@ CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Vehicle.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/BranchOffice.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.cpp
@@ -15,6 +16,8 @@ CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Vehicle.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Server.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/utils/Logger.h
 CMakeFiles/LogisticsSystem.dir/core/Task.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.cpp
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
@@ -24,6 +27,7 @@ CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Vehicle.cpp
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Vehicle.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
 CMakeFiles/LogisticsSystem.dir/main.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/BranchOffice.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.h
@@ -32,14 +36,22 @@ CMakeFiles/LogisticsSystem.dir/main.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/main.cpp
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Server.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/utils/Logger.h
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/BranchOffice.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Vehicle.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.cpp
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
 CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/LogisticsCenter.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/core/Task.h
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Server.cpp
  /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Server.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/utils/Logger.h
+CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.cpp
+ /home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.h

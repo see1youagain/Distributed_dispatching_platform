@@ -19,6 +19,7 @@ set(SOURCE_FILES
     network/Server.cpp
     core/Vehicle.cpp
     network/Client.cpp
+    plugins/PluginManager.cpp
 )
 
 # 创建可执行文件

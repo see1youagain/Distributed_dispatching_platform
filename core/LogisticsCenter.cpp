@@ -17,7 +17,8 @@ std::string LogisticsCenter::GetBranch()
     return res;
 }
 
-LogisticsCenter::LogisticsCenter(const std::string &configFile, const std::string &tasksFile)
+LogisticsCenter::LogisticsCenter(const std::string &configFile, const std::string &tasksFile,
+                                 const std::string &routesListPath, const std::string &logFile) : tasksFile(tasksFile), logger(logFile), pluginManager(routesListPath)
 {
     // Load configuration from config.json
     std::ifstream configFileStream(configFile), tasksFileStream(tasksFile);
@@ -57,11 +58,12 @@ LogisticsCenter::LogisticsCenter(const std::string &configFile, const std::strin
     m_server->registerCenter(this);
     m_server->start();
 
-    for (const auto &task : tasks["tasks_range"])
+    for (const auto &task : tasks["version" + pluginManager.getCurrentVersion()])
     {
         m_pendingTasks.push_back(
             Task(task["m_description"], std::to_string(task["taskId"].get<int>())));
     }
+    std::cout << "pluginManager version" << pluginManager.getCurrentVersion() << std::endl;
 }
 
 LogisticsCenter::~LogisticsCenter()
@@ -69,7 +71,7 @@ LogisticsCenter::~LogisticsCenter()
     m_server->stop();
 }
 
-void LogisticsCenter::run()
+void LogisticsCenter::scheduleTask()
 {
     while (true)
     {
@@ -89,6 +91,7 @@ void LogisticsCenter::run()
             {
                 if (SendToBranch(task, branch_name))
                 {
+                    logger.logTaskDispatch(task, branch_name);
                     // std::cout << "assign successfully" << std::endl;
                 }
                 else
@@ -111,14 +114,48 @@ void LogisticsCenter::run()
             std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         }
     }
+}
 
-    std::cout << "all tasks have finished" << std::endl;
+void LogisticsCenter::run()
+{
+    scheduleTask();
+
+    checkAndUpdatePlugins();
+
+    scheduleTask();
+
+    std::cout
+        << "all tasks have finished" << std::endl;
     shutdown();
+}
+
+void LogisticsCenter::checkAndUpdatePlugins()
+{
+    std::string plugin_log = pluginManager.checkAndUpdatePlugins();
+    logger.logPluginUpdate(pluginManager, plugin_log);
+
+    for (auto branch : m_branchInfo)
+    {
+        SendToBranch(pluginManager, branch.first);
+    }
+
+    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+    std::cout << "plugin update to version" << pluginManager.getCurrentVersion() << " path:" << pluginManager.getCurrentRoutesFile() << std::endl;
+
+    json tasks;
+    std::ifstream tasksFileStream(tasksFile);
+    tasksFileStream >> tasks;
+    // std::cout << " version + pluginManager.getCurrentVersion() " << "version" + pluginManager.getCurrentVersion() << std::endl;
+    for (const auto &task : tasks["version" + pluginManager.getCurrentVersion()])
+    {
+        m_pendingTasks.push_back(
+            Task(task["m_description"], std::to_string(task["taskId"].get<int>())));
+    }
 }
 
 // 选择将 task/plugin/message 发送给分支
 template <typename T>
-bool LogisticsCenter::SendToBranch(T item, const std::string &branchName)
+bool LogisticsCenter::SendToBranch(T &item, const std::string &branchName)
 {
     // std::lock_guard<std::mutex> lock(mtx_send);
     if (m_branchInfo.find(branchName) == m_branchInfo.end())
@@ -159,6 +196,33 @@ bool LogisticsCenter::SendToBranch(T item, const std::string &branchName)
             // std::cout << "Server send  " << taskMessage << std::endl;
             return m_server->sendTaskToBranch(branchInfo.first, branchInfo.second, taskMessage);
         }
+        else if constexpr (std::is_same<std::decay_t<T>, PluginManager>::value)
+        {
+            message_json["type"] = "update_plugin_chunk";
+
+            json pluginData = pluginManager.getCurrentRoutes();
+            std::string serializedData = pluginData.dump();
+
+            // 分块发送
+            size_t totalSize = serializedData.size();
+            size_t chunkCount = (totalSize + pluginManager.CHUNK_SIZE - 1) / pluginManager.CHUNK_SIZE;
+
+            for (size_t i = 0; i < chunkCount; ++i)
+            {
+                size_t start = i * pluginManager.CHUNK_SIZE;
+                size_t end = std::min(start + pluginManager.CHUNK_SIZE, totalSize);
+
+                json message_json;
+                message_json["type"] = "update_plugin_chunk";
+                message_json["file_id"] = pluginManager.getCurrentVersion();
+                message_json["chunk"] = serializedData.substr(start, end - start);
+                message_json["is_last_chunk"] = (i == chunkCount - 1);
+                message_json["version"] = pluginManager.getCurrentVersion();
+
+                std::string message = message_json.dump();
+                m_server->sendTaskToBranch(branchInfo.first, branchInfo.second, message);
+            }
+        }
     }
     catch (const nlohmann::json::exception &e)
     {
@@ -173,7 +237,8 @@ void LogisticsCenter::shutdown()
     for (auto &[branchName, branchInfo] : m_branchInfo)
     {
         // 标记需要关闭
-        if (!SendToBranch(std::string("shutdown branch"), branchName))
+        std::string msg_shutdown("shutdown branch");
+        if (!SendToBranch(msg_shutdown, branchName))
         {
             std::cerr << "Failed to send shutdown signal to branch: " << branchName << std::endl;
         }
@@ -267,7 +332,8 @@ void LogisticsCenter::handleMsg(std::string msg)
         m_activeTasks.erase(it);
         // std::cout << "handleMsg reject_task " << (*it).to_json().dump() << std::endl;
         is_loaded[msg_json["branch"]] = true;
-        std::cout << "branch " << msg_json["branch"] << " reject task " << rejected_task.GetTaskId() << rejected_task.GetDescription() << std::endl;
+        std::cout << msg_json["branch"] << " reject task " << rejected_task.GetTaskId() << " " << rejected_task.GetDescription() << std::endl;
+        logger.logTaskRejection(rejected_task, msg_json["branch"]);
         // PrintStatus();
     }
     else if (msg_str == "finish_task")
@@ -284,6 +350,7 @@ void LogisticsCenter::handleMsg(std::string msg)
         m_activeTasks.erase(it);
         is_loaded[msg_json["branch"]] = false;
         std::cout << msg_json["branch"] << " finish task " << finished_task.GetTaskId() << finished_task.GetDescription() << std::endl;
+        logger.logTaskCompletion(finished_task, msg_json["branch"]);
     }
     else
     {

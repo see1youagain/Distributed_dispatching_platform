@@ -312,6 +312,33 @@ network/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/LogisticsSystem.dir/build.make CMakeFiles/LogisticsSystem.dir/network/Server.cpp.s
 .PHONY : network/Server.cpp.s
 
+plugins/PluginManager.o: plugins/PluginManager.cpp.o
+
+.PHONY : plugins/PluginManager.o
+
+# target to build an object file
+plugins/PluginManager.cpp.o:
+	$(MAKE) -f CMakeFiles/LogisticsSystem.dir/build.make CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o
+.PHONY : plugins/PluginManager.cpp.o
+
+plugins/PluginManager.i: plugins/PluginManager.cpp.i
+
+.PHONY : plugins/PluginManager.i
+
+# target to preprocess a source file
+plugins/PluginManager.cpp.i:
+	$(MAKE) -f CMakeFiles/LogisticsSystem.dir/build.make CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.i
+.PHONY : plugins/PluginManager.cpp.i
+
+plugins/PluginManager.s: plugins/PluginManager.cpp.s
+
+.PHONY : plugins/PluginManager.s
+
+# target to generate assembly for a file
+plugins/PluginManager.cpp.s:
+	$(MAKE) -f CMakeFiles/LogisticsSystem.dir/build.make CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.s
+.PHONY : plugins/PluginManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,6 +369,9 @@ help:
 	@echo "... network/Server.o"
 	@echo "... network/Server.i"
 	@echo "... network/Server.s"
+	@echo "... plugins/PluginManager.o"
+	@echo "... plugins/PluginManager.i"
+	@echo "... plugins/PluginManager.s"
 .PHONY : help
 
 

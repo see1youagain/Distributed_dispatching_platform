@@ -1,0 +1,146 @@
+{
+    "version1": [
+        {
+            "m_description": "Small package, express delivery to nearby store",
+            "taskId": 3,
+            "cost": 7
+        },
+        {
+            "m_description": "Pickup order for delivery to residential address",
+            "taskId": 5,
+            "cost": 4
+        },
+        {
+            "m_description": "Heavy machinery transport from factory",
+            "taskId": 7,
+            "cost": 2
+        },
+        {
+            "m_description": "Furniture pickup and delivery to new customer",
+            "taskId": 9,
+            "cost": 11
+        },
+        {
+            "m_description": "Delivery of food items to supermarket",
+            "taskId": 11,
+            "cost": 5
+        },
+        {
+            "m_description": "Package pickup for international shipment",
+            "taskId": 13,
+            "cost": 4
+        },
+        {
+            "m_description": "Delivery of electronics from warehouse to retailer",
+            "taskId": 14,
+            "cost": 5
+        },
+        {
+            "m_description": "Customer delivery of clothing items",
+            "taskId": 16,
+            "cost": 3
+        },
+        {
+            "m_description": "Business documents delivery",
+            "taskId": 22,
+            "cost": 9
+        },
+        {
+            "m_description": "Package from supplier to customer",
+            "taskId": 24,
+            "cost": 12
+        },
+        {
+            "m_description": "Deliver fresh produce to local market",
+            "taskId": 27,
+            "cost": 2
+        }
+    ],
+    "version2": [
+        {
+            "m_description": "Transporting electronic devices from the warehouse to retail locations",
+            "taskId": 1,
+            "cost": 7
+        },
+        {
+            "m_description": "Heavy-duty equipment transportation from production facility to construction site",
+            "taskId": 7,
+            "cost": 18
+        },
+        {
+            "m_description": "Urgent medical supply delivery to hospitals during emergencies",
+            "taskId": 8,
+            "cost": 14
+        },
+        {
+            "m_description": "Grocery and perishable food item deliveries to supermarket chains",
+            "taskId": 11,
+            "cost": 15
+        },
+        {
+            "m_description": "Product drop-off from central distribution center to nearby retail outlets",
+            "taskId": 12,
+            "cost": 10
+        },
+        {
+            "m_description": "Safe transportation of fragile glassware to customers",
+            "taskId": 17,
+            "cost": 5
+        },
+        {
+            "m_description": "Delivery of flowers for special events and celebrations",
+            "taskId": 18,
+            "cost": 3
+        },
+        {
+            "m_description": "Dispatch of laptop products from warehouse to end customers",
+            "taskId": 19,
+            "cost": 5
+        },
+        {
+            "m_description": "Delivery of home appliances",
+            "taskId": 26,
+            "cost": 4
+        },
+        {
+            "m_description": "Perishable goods delivery to supermarkets",
+            "taskId": 28,
+            "cost": 3
+        },
+        {
+            "m_description": "Deliver packages to multiple locations",
+            "taskId": 29,
+            "cost": 4
+        },
+        {
+            "m_description": "Courier service for important documents",
+            "taskId": 34,
+            "cost": 3
+        },
+        {
+            "m_description": "High-priority document delivery",
+            "taskId": 40,
+            "cost": 2
+        },
+        {
+            "m_description": "Transport car parts to automotive factory",
+            "taskId": 41,
+            "cost": 4
+        },
+        {
+            "m_description": "Parcel delivery for holiday season",
+            "taskId": 42,
+            "cost": 3
+        },
+        {
+            "m_description": "Urgent delivery of gadgets to retailer",
+            "taskId": 43,
+            "cost": 4
+        },
+        {
+            "m_description": "Pet transport to customer home",
+            "taskId": 44,
+            "cost": 2
+        }
+    ]
+}

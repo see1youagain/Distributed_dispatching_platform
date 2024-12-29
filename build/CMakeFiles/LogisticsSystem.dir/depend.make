@@ -6,6 +6,7 @@ CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o: ../core/BranchOffice.h
 CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o: ../core/Task.h
 CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o: ../core/Vehicle.h
 CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o: ../network/Client.h
+CMakeFiles/LogisticsSystem.dir/core/BranchOffice.cpp.o: ../plugins/PluginManager.h
 
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../core/BranchOffice.h
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../core/LogisticsCenter.cpp
@@ -14,6 +15,8 @@ CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../core/Task.h
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../core/Vehicle.h
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../network/Client.h
 CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../network/Server.h
+CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../plugins/PluginManager.h
+CMakeFiles/LogisticsSystem.dir/core/LogisticsCenter.cpp.o: ../utils/Logger.h
 
 CMakeFiles/LogisticsSystem.dir/core/Task.cpp.o: ../core/Task.cpp
 CMakeFiles/LogisticsSystem.dir/core/Task.cpp.o: ../core/Task.h
@@ -23,6 +26,7 @@ CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o: ../core/Task.h
 CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o: ../core/Vehicle.cpp
 CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o: ../core/Vehicle.h
 CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o: ../network/Client.h
+CMakeFiles/LogisticsSystem.dir/core/Vehicle.cpp.o: ../plugins/PluginManager.h
 
 CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../core/BranchOffice.h
 CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../core/LogisticsCenter.h
@@ -31,15 +35,23 @@ CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../core/Vehicle.h
 CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../main.cpp
 CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../network/Client.h
 CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../network/Server.h
+CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../plugins/PluginManager.h
+CMakeFiles/LogisticsSystem.dir/main.cpp.o: ../utils/Logger.h
 
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../core/BranchOffice.h
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../core/Task.h
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../core/Vehicle.h
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../network/Client.cpp
 CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../network/Client.h
+CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o: ../plugins/PluginManager.h
 
 CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../core/LogisticsCenter.h
 CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../core/Task.h
 CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../network/Server.cpp
 CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../network/Server.h
+CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../plugins/PluginManager.h
+CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o: ../utils/Logger.h
+
+CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o: ../plugins/PluginManager.cpp
+CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o: ../plugins/PluginManager.h
 

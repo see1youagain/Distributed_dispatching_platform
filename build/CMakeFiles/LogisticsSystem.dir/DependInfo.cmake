@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/main.cpp" "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/LogisticsSystem.dir/main.cpp.o"
   "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Client.cpp" "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o"
   "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/network/Server.cpp" "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o"
+  "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/plugins/PluginManager.cpp" "/home/lzzy/project/linux_experiment/Distributed_dispatching_platform/build/CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

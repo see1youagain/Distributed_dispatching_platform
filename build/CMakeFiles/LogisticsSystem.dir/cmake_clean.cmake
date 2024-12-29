@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LogisticsSystem.dir/main.cpp.o"
   "CMakeFiles/LogisticsSystem.dir/network/Client.cpp.o"
   "CMakeFiles/LogisticsSystem.dir/network/Server.cpp.o"
+  "CMakeFiles/LogisticsSystem.dir/plugins/PluginManager.cpp.o"
   "LogisticsSystem"
   "LogisticsSystem.pdb"
 )

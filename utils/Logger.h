@@ -3,6 +3,8 @@
 #include <string>
 #include <mutex>
 #include <nlohmann/json.hpp> // JSON库
+#include "../core/Task.h"
+#include "../plugins/PluginManager.h"
 
 using json = nlohmann::json;
 
@@ -18,6 +20,7 @@ public:
         {
             std::cerr << "Error opening log file: " << logFile << std::endl;
         }
+        std::cout << "Logger on" << std::endl;
     }
 
     ~Logger()
@@ -29,12 +32,13 @@ public:
     }
 
     // 记录任务分发的日志
-    void logTaskDispatch(const std::string &taskId, const std::string &branch)
+    void logTaskDispatch(Task &task, const std::string &branch)
     {
         std::lock_guard<std::mutex> lock(mutex);
         json logEntry;
         logEntry["type"] = "task_dispatch";
-        logEntry["task_id"] = taskId;
+        logEntry["task_id"] = task.GetTaskId();
+        logEntry["task_description"] = task.GetDescription();
         logEntry["branch"] = branch;
         logEntry["status"] = "dispatched";
         logEntry["timestamp"] = getCurrentTime();
@@ -42,12 +46,13 @@ public:
     }
 
     // 记录任务拒绝的日志
-    void logTaskRejection(const std::string &taskId, const std::string &branch)
+    void logTaskRejection(Task &task, const std::string &branch)
     {
         std::lock_guard<std::mutex> lock(mutex);
         json logEntry;
         logEntry["type"] = "task_rejection";
-        logEntry["task_id"] = taskId;
+        logEntry["task_id"] = task.GetTaskId();
+        logEntry["task_description"] = task.GetDescription();
         logEntry["branch"] = branch;
         logEntry["status"] = "rejected";
         logEntry["timestamp"] = getCurrentTime();
@@ -55,13 +60,28 @@ public:
     }
 
     // 记录任务完成的日志
-    void logTaskCompletion(const std::string &taskId, const std::string &branch)
+    void logTaskCompletion(Task &task, const std::string &branch)
     {
         std::lock_guard<std::mutex> lock(mutex);
         json logEntry;
         logEntry["type"] = "task_completion";
-        logEntry["task_id"] = taskId;
+        logEntry["task_id"] = task.GetTaskId();
+        logEntry["task_description"] = task.GetDescription();
         logEntry["branch"] = branch;
+        logEntry["status"] = "completed";
+        logEntry["timestamp"] = getCurrentTime();
+        logStream << logEntry.dump() << std::endl;
+    }
+
+    // 记录插件更新
+    void logPluginUpdate(PluginManager &pluginManager, const std::string &plugin_log)
+    {
+        std::lock_guard<std::mutex> lock(mutex);
+        json logEntry;
+        logEntry["type"] = "plugin_update";
+        logEntry["plugin_version"] = pluginManager.getCurrentVersion();
+        logEntry["plugin_file"] = pluginManager.getCurrentRoutesFile();
+        logEntry["plugin_log"] = plugin_log;
         logEntry["status"] = "completed";
         logEntry["timestamp"] = getCurrentTime();
         logStream << logEntry.dump() << std::endl;

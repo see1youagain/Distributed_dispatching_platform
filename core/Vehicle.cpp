@@ -8,8 +8,8 @@
 
 using json = nlohmann::json;
 
-Vehicle::Vehicle(const std::string &vehicleName, BranchOffice *parentBranch)
-    : m_name(vehicleName), m_parentBranch(parentBranch), m_running(false), m_hasTask(false) {}
+Vehicle::Vehicle(const std::string &vehicleName, BranchOffice *parentBranch, const std::string routesListsFile)
+    : m_name(vehicleName), m_parentBranch(parentBranch), m_running(false), m_hasTask(false), pluginManager(routesListsFile) {}
 
 Vehicle::~Vehicle()
 {
@@ -78,23 +78,32 @@ void Vehicle::processTasks()
 
 int Vehicle::getTaskDuration(const std::string &taskId)
 {
-    std::ifstream routesFile("../config/tasks_list.json");
-    if (!routesFile.is_open())
+    // std::cout << "pluginManager.getCurrentRoutesFile()" << pluginManager.getCurrentRoutesFile() << std::endl;
+    std::ifstream fileStream(pluginManager.getCurrentRoutesFile());
+    if (!fileStream.is_open())
     {
         std::cerr << "Failed to open routes.json" << std::endl;
         return 1; // 默认任务时间
     }
-
     json routes;
-    routesFile >> routes;
+    fileStream >> routes;
 
-    for (const auto &task : routes["tasks_range"])
+    // 确保 routes 是数组
+    if (!routes.is_array())
     {
-        if (task["taskId"] == std::stoi(taskId)) // 如果 taskId 匹配
+        std::cerr << "Error: routes.json does not contain a valid JSON array." << std::endl;
+        return 1; // 默认任务时间
+    }
+
+    // 遍历数组，查找 taskId 匹配的任务
+    for (const auto &task : routes)
+    {
+        if (task.contains("taskId") && task["taskId"] == std::stoi(taskId))
         {
             return task["cost"]; // 返回对应的 cost
         }
     }
+
     std::cerr << "Task ID " << taskId << " not found in routes.json" << std::endl;
     return 1; // 默认任务时间
 }

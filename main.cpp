@@ -13,9 +13,9 @@ using json = nlohmann::json;
 // 添加全局退出标志
 std::atomic<bool> running(true);
 
-void startBranchOffice(const std::string &name, const std::string &server_ip, int server_port, const std::string &branch_ip, int branch_port)
+void startBranchOffice(const std::string &name, const std::string &server_ip, int server_port, const std::string &branch_ip, int branch_port, const std::string &routesFile)
 {
-    BranchOffice branch(name, server_ip, server_port, branch_ip, branch_port);
+    BranchOffice branch(name, server_ip, server_port, branch_ip, branch_port, routesFile);
     while (running.load())
     {
         std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -24,12 +24,13 @@ void startBranchOffice(const std::string &name, const std::string &server_ip, in
 
 int main()
 {
-    LogisticsCenter logisticsCenter("../config/config.json", "../config/routes.json");
+    LogisticsCenter logisticsCenter("../center_config/config.json", "../center_config/routes.json",
+                                    "../center_config/routes_lists", "../center_config/log.txt");
     std::cout << "logisticsCenter server start" << std::endl;
 
     std::this_thread::sleep_for(std::chrono::seconds(4));
 
-    std::ifstream configFileStream("../config/config.json");
+    std::ifstream configFileStream("../center_config/config.json");
     if (!configFileStream)
     {
         std::cerr << "Could not open config file: " << std::endl;
@@ -48,7 +49,7 @@ int main()
         std::string name = branch["name"];
         int branch_port = branch["port"];
         std::string branch_ip = branch["ip"];
-        branchThreads.emplace_back(startBranchOffice, name, server_ip, server_port, branch_ip, branch_port);
+        branchThreads.emplace_back(startBranchOffice, name, server_ip, server_port, branch_ip, branch_port, "../branch_config/routes_lists");
     }
 
     std::this_thread::sleep_for(std::chrono::seconds(5));

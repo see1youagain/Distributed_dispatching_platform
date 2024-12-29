@@ -5,19 +5,21 @@
 #include <thread>
 #include <atomic>
 #include "Task.h"
+#include "../plugins/PluginManager.h"
 
 class BranchOffice; // 前向声明
 
 class Vehicle
 {
 public:
-    Vehicle(const std::string &vehicleName, BranchOffice *parentBranch);
+    Vehicle(const std::string &vehicleName, BranchOffice *parentBranch, const std::string routesListsFile);
     ~Vehicle();
 
     void start();                      // 开始线程
     void stop();                       // 停止线程
     void assignTask(const Task &task); // 分配任务
     bool isIdle() const;               // 判断是否空闲
+    void updatePlugin();
 
 private:
     void processTasks();                            // 处理任务的线程函数
@@ -29,6 +31,7 @@ private:
     std::thread m_workerThread;
     Task m_currentTask;
     std::atomic<bool> m_hasTask; // 是否有任务
+    PluginManager pluginManager;
 };
 
 #endif

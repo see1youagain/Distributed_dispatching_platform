@@ -1,0 +1,375 @@
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:05:00","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:01","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:01","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:01","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:01","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:05:02","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:05:02","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:02","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:05:02","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:02","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:02","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:02","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:02","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:05:03","type":"task_completion"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:04","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:04","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:04","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:05:05","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:06","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:05:07","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:08","type":"task_completion"}
+{"plugin_file":"routes_lists_v2.json","plugin_log":"Updated to new routes file: routes_lists_v2.json","plugin_version":"2","status":"completed","timestamp":"2024-12-29 01:05:09","type":"plugin_update"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:11","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:11","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:11","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:12","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:05:12","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:12","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:05:12","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:05:12","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:05:12","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:12","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:05:12","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:12","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:13","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:13","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:05:13","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:05:13","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:13","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:13","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:05:13","type":"task_completion"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:14","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:14","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:05:14","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:05:15","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:05:16","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:05:17","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:05:18","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:50:08","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:50:08","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:50:09","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:50:09","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:50:09","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:52:01","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:54:15","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:54:15","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:54:15","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:54:16","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:54:16","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:54:16","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:54:16","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:54:16","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:54:16","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:54:16","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:54:16","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:54:16","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:54:16","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:54:17","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:54:17","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:55:58","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:55:59","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:55:59","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:55:59","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:56:33","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:56:33","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:56:33","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:56:34","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:56:34","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:56:34","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:56:34","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:56:34","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:56:34","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:56:34","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:56:34","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:56:34","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:56:35","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:56:35","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:56:35","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:56:35","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:56:37","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:56:37","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:56:37","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:56:37","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:56:37","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:56:37","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:56:38","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:56:39","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:56:40","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:58:03","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:58:03","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:03","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:03","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:03","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:58:03","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:04","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:04","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:04","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:58:04","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:04","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:04","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:58:05","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:05","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:06","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:06","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:07","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:07","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:58:07","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:58:07","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:07","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:07","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:07","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:07","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:07","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:07","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:58:08","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:08","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:58:09","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:10","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:11","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:12","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:13","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:58:14","type":"task_completion"}
+{"plugin_file":"../center_config/routes_lists/routes_lists_v2.json","plugin_log":"Updated to new routes file: routes_lists_v2.json","plugin_version":"2","status":"completed","timestamp":"2024-12-29 01:58:15","type":"plugin_update"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:20","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:20","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:20","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:58:21","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:21","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:21","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:58:22","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:22","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:22","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:22","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:58:23","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:23","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:58:24","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:58:24","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:58:24","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:24","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:24","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:24","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:24","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:24","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:58:24","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:24","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:58:26","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:58:27","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:58:28","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:58:29","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:58:30","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:58:31","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:59:46","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:59:46","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:59:46","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:59:46","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:59:46","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:59:46","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:59:47","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:59:47","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:59:47","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:59:47","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:59:47","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:59:47","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 01:59:48","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:59:48","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:59:49","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:59:49","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 01:59:50","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:59:50","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 01:59:50","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:59:50","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 01:59:50","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:59:50","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:59:50","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:59:50","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:59:50","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:59:50","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 01:59:51","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:59:51","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 01:59:52","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 01:59:53","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 01:59:54","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 01:59:55","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 01:59:56","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 01:59:57","type":"task_completion"}
+{"plugin_file":"../center_config/routes_lists/routes_lists_v2.json","plugin_log":"Updated to new routes file: routes_lists_v2.json","plugin_version":"2","status":"completed","timestamp":"2024-12-29 01:59:58","type":"plugin_update"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:00:02","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:00:02","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:00:02","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 02:00:03","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:00:03","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:00:03","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 02:00:04","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:00:04","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:00:04","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:00:04","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:00:05","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:00:05","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 02:00:06","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 02:00:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:00:06","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:00:06","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:00:06","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:00:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:00:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:00:06","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 02:00:06","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:00:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 02:00:08","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:00:09","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:00:10","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:00:11","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:00:12","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 02:00:13","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 02:16:52","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 02:16:52","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:16:52","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:16:52","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:16:52","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 02:16:52","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:16:53","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:16:53","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:16:53","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 02:16:53","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:16:53","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:16:53","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver fresh produce to local market","task_id":"27","timestamp":"2024-12-29 02:16:54","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:16:54","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:16:55","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:16:55","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Business documents delivery","task_id":"22","timestamp":"2024-12-29 02:16:56","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:16:56","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Customer delivery of clothing items","task_id":"16","timestamp":"2024-12-29 02:16:56","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 02:16:56","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Delivery of electronics from warehouse to retailer","task_id":"14","timestamp":"2024-12-29 02:16:56","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:16:56","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:16:56","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:16:56","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:16:56","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:16:56","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Package from supplier to customer","task_id":"24","timestamp":"2024-12-29 02:16:57","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:16:57","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Package pickup for international shipment","task_id":"13","timestamp":"2024-12-29 02:16:58","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of food items to supermarket","task_id":"11","timestamp":"2024-12-29 02:16:59","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Small package, express delivery to nearby store","task_id":"3","timestamp":"2024-12-29 02:17:00","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Furniture pickup and delivery to new customer","task_id":"9","timestamp":"2024-12-29 02:17:01","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Pickup order for delivery to residential address","task_id":"5","timestamp":"2024-12-29 02:17:02","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Heavy machinery transport from factory","task_id":"7","timestamp":"2024-12-29 02:17:03","type":"task_completion"}
+{"plugin_file":"../center_config/routes_lists/routes_lists_v2.json","plugin_log":"Updated to new routes file: routes_lists_v2.json","plugin_version":"2","status":"completed","timestamp":"2024-12-29 02:17:04","type":"plugin_update"}
+{"branch":"Branch3","status":"dispatched","task_description":"Pet transport to customer home","task_id":"44","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Urgent delivery of gadgets to retailer","task_id":"43","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Parcel delivery for holiday season","task_id":"42","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Parcel delivery for holiday season","task_id":"42","timestamp":"2024-12-29 02:17:06","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Parcel delivery for holiday season","task_id":"42","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Transport car parts to automotive factory","task_id":"41","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"High-priority document delivery","task_id":"40","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"High-priority document delivery","task_id":"40","timestamp":"2024-12-29 02:17:06","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"High-priority document delivery","task_id":"40","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Courier service for important documents","task_id":"34","timestamp":"2024-12-29 02:17:06","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Deliver packages to multiple locations","task_id":"29","timestamp":"2024-12-29 02:17:07","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Deliver packages to multiple locations","task_id":"29","timestamp":"2024-12-29 02:17:07","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Pet transport to customer home","task_id":"44","timestamp":"2024-12-29 02:17:08","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Deliver packages to multiple locations","task_id":"29","timestamp":"2024-12-29 02:17:08","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Perishable goods delivery to supermarkets","task_id":"28","timestamp":"2024-12-29 02:17:08","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Perishable goods delivery to supermarkets","task_id":"28","timestamp":"2024-12-29 02:17:08","type":"task_rejection"}
+{"branch":"Branch1","status":"completed","task_description":"High-priority document delivery","task_id":"40","timestamp":"2024-12-29 02:17:09","type":"task_completion"}
+{"branch":"Branch1","status":"dispatched","task_description":"Perishable goods delivery to supermarkets","task_id":"28","timestamp":"2024-12-29 02:17:09","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of home appliances","task_id":"26","timestamp":"2024-12-29 02:17:09","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of home appliances","task_id":"26","timestamp":"2024-12-29 02:17:09","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Parcel delivery for holiday season","task_id":"42","timestamp":"2024-12-29 02:17:10","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Delivery of home appliances","task_id":"26","timestamp":"2024-12-29 02:17:10","type":"task_dispatch"}
+{"branch":"Branch1","status":"completed","task_description":"Courier service for important documents","task_id":"34","timestamp":"2024-12-29 02:17:10","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Dispatch of laptop products from warehouse to end customers","task_id":"19","timestamp":"2024-12-29 02:17:10","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Dispatch of laptop products from warehouse to end customers","task_id":"19","timestamp":"2024-12-29 02:17:10","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Dispatch of laptop products from warehouse to end customers","task_id":"19","timestamp":"2024-12-29 02:17:10","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Delivery of flowers for special events and celebrations","task_id":"18","timestamp":"2024-12-29 02:17:10","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Delivery of flowers for special events and celebrations","task_id":"18","timestamp":"2024-12-29 02:17:10","type":"task_rejection"}
+{"branch":"Branch3","status":"completed","task_description":"Urgent delivery of gadgets to retailer","task_id":"43","timestamp":"2024-12-29 02:17:11","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Delivery of flowers for special events and celebrations","task_id":"18","timestamp":"2024-12-29 02:17:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Transport car parts to automotive factory","task_id":"41","timestamp":"2024-12-29 02:17:11","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Safe transportation of fragile glassware to customers","task_id":"17","timestamp":"2024-12-29 02:17:11","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Safe transportation of fragile glassware to customers","task_id":"17","timestamp":"2024-12-29 02:17:11","type":"task_rejection"}
+{"branch":"Branch2","status":"dispatched","task_description":"Safe transportation of fragile glassware to customers","task_id":"17","timestamp":"2024-12-29 02:17:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"dispatched","task_description":"Product drop-off from central distribution center to nearby retail outlets","task_id":"12","timestamp":"2024-12-29 02:17:11","type":"task_dispatch"}
+{"branch":"Branch2","status":"rejected","task_description":"Product drop-off from central distribution center to nearby retail outlets","task_id":"12","timestamp":"2024-12-29 02:17:11","type":"task_rejection"}
+{"branch":"Branch1","status":"completed","task_description":"Perishable goods delivery to supermarkets","task_id":"28","timestamp":"2024-12-29 02:17:12","type":"task_completion"}
+{"branch":"Branch1","status":"dispatched","task_description":"Product drop-off from central distribution center to nearby retail outlets","task_id":"12","timestamp":"2024-12-29 02:17:12","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Deliver packages to multiple locations","task_id":"29","timestamp":"2024-12-29 02:17:13","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Grocery and perishable food item deliveries to supermarket chains","task_id":"11","timestamp":"2024-12-29 02:17:13","type":"task_dispatch"}
+{"branch":"Branch3","status":"completed","task_description":"Delivery of flowers for special events and celebrations","task_id":"18","timestamp":"2024-12-29 02:17:13","type":"task_completion"}
+{"branch":"Branch3","status":"dispatched","task_description":"Urgent medical supply delivery to hospitals during emergencies","task_id":"8","timestamp":"2024-12-29 02:17:13","type":"task_dispatch"}
+{"branch":"Branch3","status":"dispatched","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:13","type":"task_dispatch"}
+{"branch":"Branch3","status":"rejected","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:13","type":"task_rejection"}
+{"branch":"Branch1","status":"dispatched","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:13","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:13","type":"task_rejection"}
+{"branch":"Branch1","status":"completed","task_description":"Dispatch of laptop products from warehouse to end customers","task_id":"19","timestamp":"2024-12-29 02:17:13","type":"task_completion"}
+{"branch":"Branch1","status":"dispatched","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:13","type":"task_dispatch"}
+{"branch":"Branch1","status":"dispatched","task_description":"Transporting electronic devices from the warehouse to retail locations","task_id":"1","timestamp":"2024-12-29 02:17:14","type":"task_dispatch"}
+{"branch":"Branch1","status":"rejected","task_description":"Transporting electronic devices from the warehouse to retail locations","task_id":"1","timestamp":"2024-12-29 02:17:14","type":"task_rejection"}
+{"branch":"Branch2","status":"completed","task_description":"Delivery of home appliances","task_id":"26","timestamp":"2024-12-29 02:17:14","type":"task_completion"}
+{"branch":"Branch2","status":"dispatched","task_description":"Transporting electronic devices from the warehouse to retail locations","task_id":"1","timestamp":"2024-12-29 02:17:14","type":"task_dispatch"}
+{"branch":"Branch2","status":"completed","task_description":"Safe transportation of fragile glassware to customers","task_id":"17","timestamp":"2024-12-29 02:17:14","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Urgent medical supply delivery to hospitals during emergencies","task_id":"8","timestamp":"2024-12-29 02:17:15","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Product drop-off from central distribution center to nearby retail outlets","task_id":"12","timestamp":"2024-12-29 02:17:16","type":"task_completion"}
+{"branch":"Branch3","status":"completed","task_description":"Grocery and perishable food item deliveries to supermarket chains","task_id":"11","timestamp":"2024-12-29 02:17:17","type":"task_completion"}
+{"branch":"Branch2","status":"completed","task_description":"Transporting electronic devices from the warehouse to retail locations","task_id":"1","timestamp":"2024-12-29 02:17:18","type":"task_completion"}
+{"branch":"Branch1","status":"completed","task_description":"Heavy-duty equipment transportation from production facility to construction site","task_id":"7","timestamp":"2024-12-29 02:17:19","type":"task_completion"}
